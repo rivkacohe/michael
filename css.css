@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.ot{
+    font-size: 8em;
+    width: 100px;
+    border-bottom: 5px solid black;
+    height: 150px;
+    text-align: center;
+}
+
+.space{
+    width: 100px;
+}
+
+span{
+    display: none;
+}
+
+.guss{
+    text-align: center;
+    font-size: 8rem;
+}
+
+input{
+    height: 150px;
+    font-size: 200px;
+    width: 150px;
+}
+
+label{
+    color: white;
+}
+
+.show{
+    display: flex;
+}
+
+.success{
+    border-color: green;
+}
+
+.fail{
+    border-color: red;
+}
+
+ input:focus{
+    outline: none;
+}
+
+body{
+    background-image: url("DSC_0027.JPG");
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-position:center;
+    background-size:cover;
+}
